@@ -1,42 +1,30 @@
-/* Style the nav bar */
+/* 1. Style the nav bar */
 nav {
-  background-color: #004080; /* Dark blue */
-  padding: 1em;
+  background-color: grey; /* Background color set to grey */
+  padding: 1em; /* Padding added */
 }
 
-/* Style the nav links */
+/* 2. Style the navigation links */
 nav a {
-  color: #ffffff;           /* White text */
-  padding: 0.5em 1em;
-  display: block;
-  text-decoration: none;
+  color: white;           /* Text color set to white */
+  padding: 0.5em 1em;     /* Padding around links */
+  display: block;         /* Makes the links block-level */
+  text-decoration: none;  /* Optional: removes underlines */
 }
 
-/* h1 heading style */
+/* 3. Style the h1 heading */
 h1 {
-  color: #004080; /* Dark blue or your preferred color */
+  color: red; /* H1 text color set to red */
   font-family: Arial, sans-serif;
 }
 
-/* Profile image in main */
+/* 4. Style the main image */
 main img {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin-bottom: 1em;
-  border: 2px solid #ccc;
-  padding: 5px;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  width: 150px;               /* Fixed width */
+  height: auto;               /* Keeps aspect ratio */
+  display: block;             /* Block-level image */
+  margin-bottom: 1em;         /* Space below image */
+  border: 2px solid #ccc;     /* Light grey border */
+  padding: 5px;               /* Padding around image */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
-
-/* General paragraph styles */
-p {
-  padding: 0;
-}
-
-/* Aside section styles */
-aside {
-  width: 300px;
-  margin: 1em auto;
-  border: 2px solid #004080;
-  padding: 1em;
