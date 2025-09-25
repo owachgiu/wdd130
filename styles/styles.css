@@ -1,1 +1,52 @@
+/* Limit width of main content */
+main {
+  max-width: 700px;
+  margin: 0 auto; /* center it horizontally */
+  padding: 1em;
+}
 
+/* More specific selector for profile image inside main */
+main img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* Reset padding for all paragraphs */
+p {
+  padding: 0;
+}
+
+/* Styling for the aside element */
+aside {
+  width: 300px;
+  margin: 1em auto;
+  border: 2px solid #004080; /* navy blue border */
+  padding: 1em;
+  background-color: #e6f0ff; /* light blue background */
+  color: #003366; /* dark blue text */
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Image inside aside */
+aside img {
+  width: 200px;
+  height: auto; /* maintain aspect ratio */
+  display: block;
+  margin: 0 auto 1em auto;
+  border-radius: 4px;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 2em;
+  border-top: 2px solid #004080;
+  text-align: center;
+  padding: 1em 0;
+  font-family: Arial, sans-serif;
+  color: #666666;
+  background-color: #f9f9f9;
+}
