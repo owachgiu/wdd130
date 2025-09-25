@@ -1,24 +1,28 @@
-/* 1. nav styles */
+/* Navigation styling */
 nav {
   background-color: grey;
   padding: 1em;
 }
 
-/* 2. nav link styles */
 nav a {
   color: white;
-  padding: 0.5em 1em;
+  padding: 0.5em;
   display: block;
   text-decoration: none;
 }
 
-/* 3. h1 styles */
+/* Heading styling */
 h1 {
   color: red;
-  font-family: Arial, sans-serif;
 }
 
-/* 4. main image styles */
+/* Main content styling */
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Profile image inside main */
 main img {
   width: 150px;
   height: auto;
@@ -26,27 +30,20 @@ main img {
   margin-bottom: 1em;
   border: 2px solid #ccc;
   padding: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
 
-/* ✅ 1. main rule with max-width */
-main {
-  max-width: 800px; /* Limits content width */
-  margin: 0 auto;   /* Centers the content */
-  padding: 1em;
-}
-
-/* ✅ 2. aside rule with full properties */
+/* Aside section */
 aside {
   width: 300px;
   margin: 2em auto;
-  border: 1px solid #999;
+  border: 1px solid #ccc;
   padding: 1em;
   background-color: grey;
   color: white;
 }
 
-/* ✅ 3. aside image rule */
+/* Image inside aside */
 aside img {
   width: 200px;
   height: auto;
@@ -54,10 +51,15 @@ aside img {
   margin: 0 auto;
 }
 
-/* ✅ 4. footer styles */
+/* Paragraph styling */
+p {
+  padding: 0;
+}
+
+/* Footer styling */
 footer {
   margin-top: 2em;
-  border-top: 2px solid #ccc;
+  border-top: 1px solid #ccc;
   text-align: center;
   padding-top: 1em;
 }
