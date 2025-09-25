@@ -1,30 +1,63 @@
-/* 1. Style the nav bar */
+/* 1. nav styles */
 nav {
-  background-color: grey; /* Background color set to grey */
-  padding: 1em; /* Padding added */
+  background-color: grey;
+  padding: 1em;
 }
 
-/* 2. Style the navigation links */
+/* 2. nav link styles */
 nav a {
-  color: white;           /* Text color set to white */
-  padding: 0.5em 1em;     /* Padding around links */
-  display: block;         /* Makes the links block-level */
-  text-decoration: none;  /* Optional: removes underlines */
+  color: white;
+  padding: 0.5em 1em;
+  display: block;
+  text-decoration: none;
 }
 
-/* 3. Style the h1 heading */
+/* 3. h1 styles */
 h1 {
-  color: red; /* H1 text color set to red */
+  color: red;
   font-family: Arial, sans-serif;
 }
 
-/* 4. Style the main image */
+/* 4. main image styles */
 main img {
-  width: 150px;               /* Fixed width */
-  height: auto;               /* Keeps aspect ratio */
-  display: block;             /* Block-level image */
-  margin-bottom: 1em;         /* Space below image */
-  border: 2px solid #ccc;     /* Light grey border */
-  padding: 5px;               /* Padding around image */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 1em;
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ 1. main rule with max-width */
+main {
+  max-width: 800px; /* Limits content width */
+  margin: 0 auto;   /* Centers the content */
+  padding: 1em;
+}
+
+/* ✅ 2. aside rule with full properties */
+aside {
+  width: 300px;
+  margin: 2em auto;
+  border: 1px solid #999;
+  padding: 1em;
+  background-color: grey;
+  color: white;
+}
+
+/* ✅ 3. aside image rule */
+aside img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ✅ 4. footer styles */
+footer {
+  margin-top: 2em;
+  border-top: 2px solid #ccc;
+  text-align: center;
+  padding-top: 1em;
 }
