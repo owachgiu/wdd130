@@ -369,3 +369,252 @@ footer .socialmedia img {
     height: 250px;
   }
 }
+
+
+/* ===== Trips Page Styling ===== */
+
+.trip-descriptions {
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.trip-descriptions h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.trip-card {
+  background-color: var(--accent2-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.trip-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.trip-card h3 {
+  color: var(--primary-color);
+  margin: 1rem 0 0.5rem;
+}
+
+.trip-card p {
+  padding: 0 1rem;
+  color: #555;
+}
+
+/* Table styling */
+.trips-table {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.trips-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trips-table th, .trips-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.trips-table th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.trips-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Call to action */
+.call-to-action {
+  text-align: center;
+  background-color: var(--accent1-color);
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 3rem 0;
+  color: #00334d;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #003b6b;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .trip-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trip-card img {
+    height: 220px;
+  }
+}
+
+
+/* ====== Home Page Styling ====== */
+
+/* Hero Section */
+.home-hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.home-hero img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 78, 137, 0.6);
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+/* Adventure Specialists */
+.adventure-specialists {
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.adventure-specialists h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+/* Why Choose Us */
+.why-choose-us {
+  background-color: var(--accent2-color);
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.why-choose-us ul {
+  list-style: none;
+  margin: 1rem auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.why-choose-us li {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  color: #004e89;
+}
+
+/* What's on Offer Section */
+.whats-on-offer {
+  text-align: center;
+  padding: 2rem;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.offer-box {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.offer-box:hover {
+  transform: translateY(-5px);
+}
+
+.offer-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.offer-box h3 {
+  color: var(--primary-color);
+  margin: 1rem 0 0.5rem;
+}
+
+.offer-box p {
+  padding: 0 1rem 1rem;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .offer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* Change the color of the homepage hero heading only */
+.home-hero .hero-text h1 {
+  color: #ffcc00; /* Choose any color you like */
+}
